@@ -13,7 +13,10 @@ const Header = () => {
           <h2 className="lg:text-[3.4rem] text-[2.7rem] font-bold">Webisoft</h2>
           <ul className="hidden relative lg:flex ml-6 text-xl space-x-4 items-center">
             <li className="flex items-center">
-              <a href="services">Services</a>
+              <a href="services" className="relative group">
+                <span className="bg-black h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
+                Services
+              </a>
               <div
                 className={`ml-2 mt-1 duration-500 cursor-pointer ${
                   reveal && "rotate-[315deg]"
@@ -50,10 +53,16 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <a href="projects">Projects</a>
+              <a href="projects" className="relative group">
+                <span className="bg-black h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
+                Projects
+              </a>
             </li>
             <li>
-              <a href="fr">FR</a>
+              <a href="fr" className="relative group">
+                <span className="bg-black h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
+                FR
+              </a>
             </li>
           </ul>
         </div>
@@ -68,20 +77,9 @@ const Header = () => {
             }}
             className="flex flex-col cursor-pointer group gap-y-[0.4rem] items-end lg:hidden"
           >
-            <div
-              className={`h-[0.2rem] w-6 ${
-                toggleNav && "w-8 rotate-[-45deg]"
-              } group-hover:w-8 duration-500 bg-darkGray`}
-            />
-            <div
-              className={`h-[0.2rem] ${toggleNav && "hidden"} w-8 bg-darkGray`}
-            />
-            <div
-              className={`h-[0.2rem] w-4 ${
-                toggleNav &&
-                "w-9 group-hover:w-9 translate-x-2 -translate-y-2 rotate-[45deg]"
-              } group-hover:w-8 duration-500 bg-red-300`}
-            />
+            <div className="h-[0.2rem] w-6 group-hover:w-8 duration-500 bg-darkGray" />
+            <div className="h-[0.2rem] w-8 bg-darkGray" />
+            <div className="h-[0.2rem] w-4 group-hover:w-8 duration-500 bg-darkGray" />
           </div>
         </div>
       </header>
@@ -89,7 +87,7 @@ const Header = () => {
       <div
         className={`w-screen ${
           toggleNav ? "left-0" : "left-full"
-        } md:hidden flex flex-col top-[12%] h-[88vh] bg-lightGray fixed duration-500 px-3 md:px-8`}
+        } md:hidden flex flex-col top-[8%] h-[92vh] bg-lightGray fixed duration-500 pt-8 px-3 md:px-8`}
       >
         <ul className="pb-6">
           <li className="border-b-2 cursor-pointer border-black py-2">
@@ -117,9 +115,9 @@ const Header = () => {
             </a>
           </li>
         </ul>
-        <di className="pt-6">
+        <div className="pt-6">
           <h3>Utilities</h3>
-        </di>
+        </div>
         <ul>
           <li>
             <a href="#" className="relative group">
@@ -147,7 +145,7 @@ const Header = () => {
           </li>
         </ul>
         {/* subfooter */}
-        <div className="">
+        <div className="fixed bottom-0">
           <ul>
             <li>
               <a href="#">+1 514-874-3224</a>
