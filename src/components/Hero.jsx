@@ -13,7 +13,7 @@ const Hero = () => {
           firm with core expertise in blockchain and SaaS and software
           development.
         </p>
-        <button className="bg-blue-600 w-1/3 py-4 herobutton text-white">
+        <button className="bg-blue-600 md:w-1/3 w-full py-4 herobutton text-white">
           Start Now
         </button>
       </div>
