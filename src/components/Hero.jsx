@@ -13,9 +13,11 @@ const Hero = () => {
           firm with core expertise in blockchain and SaaS and software
           development.
         </p>
-        <button className="bg-blue-500 w-1/2 py-4 text-white">Start Now</button>
+        <button className="bg-blue-600 w-1/3 py-4 herobutton text-white">
+          Start Now
+        </button>
       </div>
-      <div className="hidden md:block w-1/2 herobutton">
+      <div className="hidden md:block w-1/2">
         <img src={heroImg} />
       </div>
     </section>
