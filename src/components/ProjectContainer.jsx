@@ -6,8 +6,8 @@ import Project3 from "./Projects/Project3";
 const ProjectContainer = () => {
   const [project, setProject] = useState([
     { id: 1, showProject: false, project: Project1 },
-    { id: 2, showProject: false, project: Project1 },
-    { id: 3, showProject: false, project: Project1 },
+    { id: 2, showProject: false, project: Project2 },
+    { id: 3, showProject: false, project: Project3 },
     { id: 4, showProject: false, project: Project1 },
     { id: 5, showProject: false, project: Project1 },
     { id: 6, showProject: false, project: Project1 },
@@ -18,7 +18,7 @@ const ProjectContainer = () => {
     <div className="w-full mt-[7rem] divide-y divide-solid divide-black">
       {project.map((prj, i) => (
         <div
-          className="cursor-pointer "
+          className={`cursor-pointer`}
           key={i}
           onClick={() => {
             setProject(
@@ -49,7 +49,9 @@ const ProjectContainer = () => {
               <img src={arrow} />
             </div>
           </div>
-          {prj.showProject && <prj.project />}
+          {prj.showProject && <div className='duration-400'>
+            <prj.project />
+            </div>}
         </div>
       ))}
     </div>

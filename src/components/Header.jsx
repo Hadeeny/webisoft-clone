@@ -4,7 +4,7 @@ const Header = () => {
   const [reveal, setReveal] = useState(false);
   const [toggleNav, setToggleNav] = useState(false);
   return (
-    <div className="flex md:h-fit flex-col">
+    <div className="flex md:h-fit flex-col absolute top-0 left-0 right-0">
       <header
         className="w-full bg-lightGray lg:bg-white px-3 md:px-8  py-2 flex 
       justify-between items-center mx-auto"
