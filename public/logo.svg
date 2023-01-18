@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 682.45 127.2" style="enable-background:new 0 0 682.45 127.2;" xml:space="preserve" width="682.45" height="127.2">
+<style type="text/css">
+	.st0{fill:#EBECEB;}
+	.st1{fill:#0250EB;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#2957FF;stroke-miterlimit:10;}
+	.st5{fill:#0250ED;}
+	.st6{fill:#1E1E1E;}
+	.st7{fill:#F4F4F4;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#1E1E1E;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#EDEDED;stroke-width:2;stroke-miterlimit:10;}
+	.st11{fill:#E5E5E5;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st13{opacity:0.5;fill:none;}
+	.st14{fill:none;stroke:#FFFFFF;stroke-width:2.075;stroke-miterlimit:10;}
+	.st15{opacity:0.3;fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;}
+	.st16{opacity:0.3;fill:#FFFFFF;}
+	.st17{opacity:0.3;fill:none;stroke:#FFFFFF;stroke-width:0.9443;stroke-miterlimit:10;}
+	.st18{fill:url(#SVGID_17_);}
+	.st19{fill:url(#SVGID_18_);}
+	.st20{fill:url(#SVGID_19_);}
+	.st21{fill:url(#SVGID_20_);}
+	.st22{fill:url(#SVGID_21_);}
+	.st23{fill:url(#SVGID_22_);}
+	.st24{fill:url(#SVGID_23_);}
+	.st25{fill:url(#SVGID_24_);}
+	.st26{fill:url(#SVGID_25_);}
+	.st27{opacity:0.2;fill:none;stroke:#FFA42C;stroke-width:3.1137;stroke-miterlimit:10;}
+	.st28{fill:none;stroke:#E36D6D;stroke-width:3.1137;stroke-miterlimit:10;}
+	.st29{fill:none;stroke:#FFFFFF;stroke-width:1.7416;stroke-miterlimit:10;}
+	.st30{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st31{opacity:0.32;fill:#0250ED;}
+	.st32{clip-path:url(#SVGID_35_);}
+	.st33{fill:url(#SVGID_44_);}
+	.st34{fill:url(#SVGID_45_);}
+	.st35{fill:url(#SVGID_46_);}
+	.st36{fill:url(#SVGID_47_);}
+	.st37{fill:url(#SVGID_48_);}
+	.st38{fill:url(#SVGID_49_);}
+	.st39{fill:url(#SVGID_50_);}
+	.st40{fill:url(#SVGID_51_);}
+	.st41{fill:url(#SVGID_52_);}
+	.st42{fill:none;stroke:#5CAA57;stroke-miterlimit:10;}
+	.st43{fill:#5CAA57;}
+	.st44{fill:none;stroke:#1E1E1E;stroke-width:2.0441;stroke-miterlimit:10;}
+	.st45{clip-path:url(#SVGID_60_);}
+</style>
+<g id="Layer_1">
+	<g>
+		<polygon points="147.29,3.49 121.78,91.73 95.05,3.49 75.3,3.49 48.75,91.73 23.41,3.49 0,3.49 36.69,125.8 59.23,125.8     85.26,39.31 111.3,125.8 134.01,125.8 170.53,3.49   "></polygon>
+		<path d="M209.79,109.37c-13.63,0-22.71-9.09-24.29-23.24h65c0.17-1.75,0.35-4.37,0.35-7.34c0-20.97-13.28-42.46-42.81-42.46    c-28.83,0-43.16,21.84-43.16,45.08c0,23.06,16.08,45.78,44.9,45.78c21.66,0,38.09-12.06,41.41-30.75h-20.97    C227.96,104.83,220.79,109.37,209.79,109.37z M208.04,52.42c12.75,0,20.44,8.39,21.32,19.57h-43.33    C188.29,58.71,195.98,52.42,208.04,52.42z"></path>
+		<path d="M307.48,36.34c-11.36,0-20.79,4.89-25.86,12.06V0H260.3v125.8h21.31v-11.01c5.07,7.69,14.85,12.41,25.51,12.41    c26.38,0,41.93-18.52,41.93-45.43C349.06,54.86,333.51,36.34,307.48,36.34z M303.98,108.68c-14.33,0-23.76-10.66-23.76-26.91    c0-16.25,9.43-26.91,23.76-26.91c14.33,0,23.76,10.66,23.76,26.91C327.75,98.02,318.31,108.68,303.98,108.68z"></path>
+		<rect x="357.59" y="37.74" width="21.49" height="88.06"></rect>
+		<rect x="356.72" width="23.06" height="23.94"></rect>
+		<path d="M408.83,61.85c0-5.94,5.07-9.44,12.76-9.44c6.81,0,14.33,4.19,15.55,12.4h19.57c-0.87-17.12-15.02-28.48-35.64-28.48    c-18.17,0-31.62,10.83-31.62,26.21c0,37.22,48.22,18.52,48.22,38.09c0,5.24-5.59,9.43-13.98,9.43c-9.61,0-16.08-5.24-16.95-13.63    h-19.57c1.05,18.87,15.2,30.75,36.52,30.75c20.62,0,34.07-10.83,34.07-27.43C457.76,59.93,408.83,80.9,408.83,61.85z"></path>
+		<path d="M507.47,36.34c-26.91,0-46.13,19.22-46.13,45.43c0,26.21,19.22,45.43,46.13,45.43c26.73,0,45.95-19.22,45.95-45.43    C553.42,55.56,534.2,36.34,507.47,36.34z M507.47,108.68c-14.68,0-24.46-11.01-24.46-26.91c0-15.9,9.78-26.91,24.46-26.91    c14.5,0,24.29,11.01,24.29,26.91C531.76,97.67,521.97,108.68,507.47,108.68z"></path>
+		<path d="M682.45,55.74v-18h-24.46V11.18H636.5v26.56h-19.35h-5.93h-19.76v-7.16c0-7.69,4.89-12.41,12.4-12.41h13.28V0h-15.73    c-19.04,0-31.45,11.71-31.45,29.53v8.21h-17.3v18h17.3v70.06h21.49V55.74h19.76h5.93h19.35v39.31c0,19.57,12.58,30.75,31.8,30.75    h14.15v-18.17h-11.71c-8.04,0-12.75-4.54-12.75-13.45V55.74H682.45z"></path>
+	</g>
+</g>
+<g id="delet_temp">
+</g>
+<g id="strokes">
+</g>
+<g id="scroll">
+</g>
+<g id="Layer_5">
+</g>
+</svg>
