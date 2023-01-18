@@ -17,7 +17,7 @@ const Cards = () => {
       `,
     },
     {
-      image: products,
+      image: users,
       title: "Recruitment",
       text: `On demand staff augmentation or quick 
       recruitment of new employees.
@@ -29,14 +29,17 @@ const Cards = () => {
       {cardInfo.map((card, i) => (
         <li
           key={i}
-          className="relative px-6 rounded-3xl group hover:bg-black cursor-pointer justify-between min-w-[300px] flex flex-col 
+          className="relative px-6 rounded-3xl 
+           
+          cursor-pointer justify-between group min-w-[300px] flex flex-col 
           py-6 flexer"
         >
-          {/* <div className="w-full left-0 h-2/3 bg-black rounded-3xl absolute top-0 "></div> */}
-          <div className="mx-auto my-12 w-[8rem]">
+          {/* group hover:bg-black */}
+          <div className="w-full left-0 z-[3] h-0 group-hover:h-full duration-300 bg-black rounded-3xl absolute bottom-0"></div>
+          <div className="mx-auto z-[10] my-12 w-[8rem]">
             <img src={card.image} />
           </div>
-          <div className="flex flex-col justify-between ">
+          <div className="flex flex-col z-[10] justify-between ">
             <h3 className="text-xl group-hover:text-white">{card.title}</h3>
             <p className="my-6 text-lg group-hover:text-white">{card.text}</p>
             <div>

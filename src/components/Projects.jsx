@@ -3,8 +3,8 @@ import ProjectContainer from "./ProjectContainer";
 const Projects = () => {
   return (
     <section className="w-full py-[6rem] bg-gray-200  my-[5rem] ">
-      <div className=" w-11/12 border border-transparent pt-[6rem] items-center px-4 border-t-black mx-auto">
-        <div className="flex flex-col md:flex-row-reverse">
+      <div className=" w-[98%] md:w-11/12 border border-transparent pt-[6rem] items-center px-4 border-t-black mx-auto">
+        <div className="flex flex-col gap-y-8 md:flex-row-reverse">
           <div className="w-full flex justify-start text-xl md:justify-end md:w-1/3">
             Our Projects
           </div>

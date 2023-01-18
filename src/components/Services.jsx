@@ -1,8 +1,8 @@
 import Cards from "../components/Cards";
 const Services = () => {
   return (
-    <section className="w-11/12 border border-transparent pt-[6rem] border-t-black mx-auto my-[5rem] items-center px-4">
-      <div className="flex flex-col md:flex-row-reverse">
+    <section className="w-[98%] md:w-11/12 border border-transparent pt-[6rem] border-t-black mx-auto my-[5rem] items-center px-4">
+      <div className="flex gap-y-8 flex-col md:flex-row-reverse">
         <div className="w-full flex justify-start text-xl md:justify-end md:w-1/3">
           Our Services
         </div>
