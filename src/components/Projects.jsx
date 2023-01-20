@@ -9,10 +9,10 @@ const Projects = () => {
             Our Projects
           </div>
           <div className="w-full space-y-6 md:w-2/3">
-            <h2 className="text-4xl">
+            <h2 className="text-2xl md:text-4xl">
               We've built some incredible things with people like you!
             </h2>
-            <p className="text-lg">
+            <p className="text-md">
               Being a full-service agency we’ve served a wide range of
               organizations, from full-fledged enterprises to early staged
               startups who are now disrupting the market within their sectors.

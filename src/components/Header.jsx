@@ -30,7 +30,7 @@ const Header = () => {
               <ul
                 className={`${
                   reveal ? "block" : "hidden"
-                } absolute w-[15rem] text-[1rem] space-y-4 top-16 shadow-xl p-6`}
+                } absolute w-[15rem] bg-white text-[1rem] space-y-4 top-16 shadow-xl p-6`}
               >
                 <li className="">
                   <a href="allservice">All Services</a>

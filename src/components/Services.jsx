@@ -7,11 +7,11 @@ const Services = () => {
           Our Services
         </div>
         <div className="w-full space-y-6 md:w-2/3">
-          <h2 className="text-4xl">
+          <h2 className="text-2xl md:text-4xl">
             Webisoft, a technology partner with a knowledge based approach to
             building the future.
           </h2>
-          <p className="text-lg">
+          <p className="text-md">
             We are a full-service product development agency from branding to
             programming. Design, web applications and mobile applications are
             our tools reach new audience and build long lasting products. Let's

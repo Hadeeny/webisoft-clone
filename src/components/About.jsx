@@ -12,9 +12,9 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="w-full text-lg space-y-6 md:w-1/2">
-        <p>About Webisoft</p>
-        <h2 className="text-4xl">
+      <div className="w-full text-md space-y-6 md:w-1/2">
+        <p className="text-lg">About Webisoft</p>
+        <h2 className="text-2xl md:text-4xl">
           Digital transformation and product developement company based in
           Montreal
         </h2>

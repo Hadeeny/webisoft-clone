@@ -8,7 +8,7 @@ const Hero = () => {
           <span className="text-blue-500">innovative products</span> for
           businesses and startups.
         </h3>
-        <p className="max-w-lg text-sm md:text-lg">
+        <p className="max-w-lg text-md md:text-lg">
           Webisoft is digital transformation and product development consulting
           firm with core expertise in blockchain and SaaS and software
           development.
