@@ -15,3 +15,70 @@
 .herobutton {
   clip-path: polygon(10% 0, 100% 0, 100% 50%, 90% 100%, 0 100%, 0 50%);
 }
+
+/* initial={{
+  y: 50,
+  clipPath: "polygon(0 0, 0% 0, 0% 0%, 0% 0%)",
+}}
+animate={{
+  y: 0,
+  clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+}} */
+
+.reveal {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  animation: rise ease-in-out 1s;
+}
+
+.right {
+  animation: flow ease-in-out 1s;
+}
+
+.cta {
+  animation: grow ease-in-out 1s;
+}
+
+.fall {
+  animation: fall ease-in-out 1s;
+}
+
+@keyframes rise {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    /* transform: translateY(10rem); */
+    transform: translateY(10rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes flow {
+  0% {
+    transform: translateX(6rem);
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  100% {
+    transform: translateX(0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+@keyframes grow {
+  0% {
+    opacity: 0;
+    transform: translateY(6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fall {
+  0% {
+    opacity: 0;
+    transform: translateY(-6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

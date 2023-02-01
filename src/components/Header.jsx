@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <div className="flex md:h-fit flex-col absolute top-0 left-0 right-0">
       <header
-        className="w-full bg-lightGray lg:bg-white px-3 md:px-8  py-2 flex 
-      justify-between items-center mx-auto"
+        className="w-full bg-lightGray fixed z-[2000] lg:bg-white px-3 md:px-8  py-2 flex 
+      justify-between items-center mx-auto fall"
       >
         <div className="flex">
           <h2 className="lg:text-[3.4rem] text-[2.7rem] font-bold">Webisoft</h2>
@@ -87,7 +87,7 @@ const Header = () => {
       <div
         className={`w-screen ${
           toggleNav ? "left-0" : "left-full"
-        } md:hidden flex flex-col top-[8%] h-[92vh] bg-lightGray fixed duration-500 pt-8 px-3 md:px-8`}
+        } md:hidden flex z-[1000] flex-col top-[8%] h-[92vh] bg-lightGray fixed duration-500 pt-8 px-3 md:px-8`}
       >
         <ul className="pb-6">
           <li className="border-b-2 cursor-pointer border-black py-2">
