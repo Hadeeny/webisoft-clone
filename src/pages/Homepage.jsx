@@ -1,4 +1,5 @@
 import About from "../components/About"
+import Companies from "../components/Companies"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
@@ -12,6 +13,7 @@ const Homepage = () => {
             <About/>
             <Services/>
             <Projects/>
+            <Companies/>
         </div>
     )
 }

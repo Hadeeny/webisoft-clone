@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="flex md:h-fit flex-col absolute top-0 left-0 right-0">
       <header
-        className="w-full bg-lightGray fixed z-[2000] lg:bg-white px-3 md:px-8  py-2 flex 
+        className="w-full bg-lightGray fixed z-[2000] md:bg-white/50 md:backdrop-blur-md px-3 md:px-8  py-2 flex 
       justify-between items-center mx-auto fall"
       >
         <div className="flex">
