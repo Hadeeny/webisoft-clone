@@ -3,7 +3,7 @@ import whatsapp from "../assets/whatsapp.svg";
 
 const Contact = () => {
   return (
-    <section className="w-[98%] md:w-11/12 border-t border-black py-[4rem]  mx-auto my-[5rem] items-center">
+    <section className="w-11/12 border-t border-black py-[4rem]  mx-auto my-[5rem] items-center">
       <div className="w-full flex flex-col gap-y-4 md:flex-row justify-between items-center">
         <div className="w-full md:w-1/2 flex gap-y-4 flex-col">
           <h3 className="text-[2rem] font-semibold">
